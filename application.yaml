@@ -6,15 +6,15 @@ metadata:
   labels:
     app.kubernetes.io/created-by: modeldynamics-helix
     app.kubernetes.io/managed-by: modeldynamics
-    app.kubernetes.io/name: fishfin
+    app.kubernetes.io/name: test03
     app.kubernetes.io/part-of: helix-project
-  name: fishfin
+  name: test03
   namespace: argocd
 spec:
   destination:
-    namespace: helix-fishfin
+    namespace: helix-test03
     server: https://kubernetes.default.svc
-  project: fishfin
+  project: test03
   source:
     helm:
       valueFiles:
