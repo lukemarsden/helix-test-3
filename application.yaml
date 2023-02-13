@@ -6,15 +6,15 @@ metadata:
   labels:
     app.kubernetes.io/created-by: modeldynamics-helix
     app.kubernetes.io/managed-by: modeldynamics
-    app.kubernetes.io/name: fff
+    app.kubernetes.io/name: hhh
     app.kubernetes.io/part-of: helix-project
-  name: fff
+  name: hhh
   namespace: argocd
 spec:
   destination:
-    namespace: helix-fff
+    namespace: helix-hhh
     server: https://kubernetes.default.svc
-  project: fff
+  project: hhh
   source:
     helm:
       valueFiles:
